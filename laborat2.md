@@ -1,8 +1,8 @@
 **﻿UNIVERSITATEA DE STAT DIN MOLDOVA**
 
-FACULTATEA „MATEMATICĂ ŞI INFORMATICĂ”
+**FACULTATEA „MATEMATICĂ ŞI INFORMATICĂ”**
 
-DEPARTAMENTUL“INFORMATICĂ APLICATA”
+**DEPARTAMENTUL“INFORMATICĂ APLICATA”**
 
 
 
@@ -36,7 +36,10 @@ Framework
 
 
 Chişinău 2024
+
+
 ## Condiții
+
 ### **Nr. 1. Pregătirea pentru lucru, instalarea Laravel**
 Aici instalam Laravel, obs si comanda pentru crearea proiectului:
 
@@ -76,10 +79,12 @@ Dacă cheia ar ajunge în mâinile unui răufăcător, acesta ar putea decripta 
 ### **Nr. 3. Principiile de bază ale lucrului cu cererile HTTP**
 #### *Nr. 3.1. Crearea rutelor pentru pagina principală și pagina "Despre noi"*
 Creez controllerul HomeController:
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.006.png)
 
 Adaug metoda index în HomeController si  metoda pentru pagina "Despre noi" în HomeController:
 Deasemenea sunt vizibile si rutile:
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.007.png)
 
 #### *Nr. 3.2. Crearea rutelor pentru sarcini*
@@ -112,16 +117,20 @@ Crearea manuală a rutelor necesită adăugarea fiecărei rute individuale, spec
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.011.png)
 
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.012.png)
+
 
 #### *Nr. 4.2. Utilizarea șabloanelor Blade*
 Creați vizualizarea pentru pagina principală home.blade.php:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.013.png)
 
+
 Creați vizualizarea pentru pagina "Despre noi" about.blade.php:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.014.png)
+
 
 Creați vizualizări pentru sarcini cu următoarele șabloane în directorul resources/views/tasks:
 
@@ -131,7 +140,9 @@ Creați vizualizări pentru sarcini cu următoarele șabloane în directorul re
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.015.png)
 
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.016.png)
+
 
 **Explicații**
 
@@ -146,24 +157,30 @@ Pentru ca aceste vizualizări să funcționeze corect, ma asigur că în control
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.017.png)
 
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.018.png)
+
 
 #### *Nr. 4.3. Componente anonime Blade*
 Creați o componentă anonimă pentru afișarea antetului (header). Folosiți componenta creată în layoutul layouts/app.blade.php. 
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.019.png)
 
+
 Creează fișierul de vizualizare pentru antet:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.020.png)
+
 
 Crearea unei componente anonime pentru sarcini:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.021.png)
 
+
 Creează fișierul de vizualizare pentru sarcină:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.022.png)
+
 
 
 
@@ -173,10 +190,12 @@ Adăugați stiluri pentru pagini folosind CSS
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.023.png)
 
-![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.024.png)
+
 
 Include stilurile în layouts/app.blade.php:
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.025.png)
+
 
 
 ### **Nr. 5. Sarcini suplimentare**
@@ -184,14 +203,19 @@ Afișați ultima sarcină creată pe pagina principală folosind View Composer
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.026.png)
 
+
 Afișează ultima sarcină în home.blade.php:
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.027.png)
+
 
 Componentă anonimă pentru afișarea priorității sarcinii:
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.028.png)
 
+
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.029.png)
+
 
 Include componenta de prioritate în show.blade.php:
 
