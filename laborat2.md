@@ -45,13 +45,13 @@ composer create-project laravel/laravel:^10 todo-app
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.001.png)
 
 Aici intram in directorul proiectului :
-
+```http
 cd todo-app
-
+```
 dupa pornesc several Laravel :
-
+```http
 php artisan serve
-
+```
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.002.png)
 
 **Întrebare**: Ce vedeți în browser când deschideți pagina <http://localhost:8000>?
@@ -75,13 +75,13 @@ Dacă cheia ar ajunge în mâinile unui răufăcător, acesta ar putea decripta 
 
 ### **Nr. 3. Principiile de bază ale lucrului cu cererile HTTP**
 #### *Nr. 3.1. Crearea rutelor pentru pagina principală și pagina "Despre noi"*
-Creez controllerul HomeController:![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.006.png)
+Creez controllerul HomeController:
+![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.006.png)
 
 Adaug metoda index în HomeController si  metoda pentru pagina "Despre noi" în HomeController:
-
 Deasemenea sunt vizibile si rutile:
-
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.007.png)
+
 #### *Nr. 3.2. Crearea rutelor pentru sarcini*
 Am creeat controller TaskController, utilizat controllerul de resurse:
 
@@ -113,6 +113,7 @@ Crearea manuală a rutelor necesită adăugarea fiecărei rute individuale, spec
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.011.png)
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.012.png)
+
 #### *Nr. 4.2. Utilizarea șabloanelor Blade*
 Creați vizualizarea pentru pagina principală home.blade.php:
 
@@ -172,7 +173,10 @@ Adăugați stiluri pentru pagini folosind CSS
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.023.png)
 
-![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.024.png)Include stilurile în layouts/app.blade.php:![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.025.png)
+![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.024.png)
+
+Include stilurile în layouts/app.blade.php:
+![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.025.png)
 
 
 ### **Nr. 5. Sarcini suplimentare**
@@ -180,11 +184,8 @@ Afișați ultima sarcină creată pe pagina principală folosind View Composer
 
 ![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.026.png)
 
-Afișează ultima sarcină în home.blade.php:![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.027.png)
-
-
-
-
+Afișează ultima sarcină în home.blade.php:
+![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.027.png)
 
 Componentă anonimă pentru afișarea priorității sarcinii:
 
@@ -194,7 +195,9 @@ Componentă anonimă pentru afișarea priorității sarcinii:
 
 Include componenta de prioritate în show.blade.php:
 
-![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.030.png)**Întrebări de control**
+![](Aspose.Words.0ecc0749-6692-4e17-9a17-c565ec8915c1.030.png)
+
+**Întrebări de control**
 
 1. **Ce este un controller de resurse în Laravel și ce rute creează?**
    1. Un controller de resurse în Laravel este un tip special de controller care oferă metode pentru a gestiona operațiile CRUD (Create, Read, Update, Delete) asupra resurselor. Creează automat rutele pentru operațiile standard: index, create, store, show, edit, update și destroy.
